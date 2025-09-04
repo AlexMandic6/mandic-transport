@@ -2,14 +2,15 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <Image
-      src="/scania.jpg"
-      alt="Scania truck image"
-      width={2048}
-      height={1366}
-      objectFit="cover"
-      priority={true}
-      loading="eager"
-    />
+    <div className="relative w-full h-[calc(100vh-80px)]">
+      <Image
+        src="/scania.jpg"
+        alt="Scania truck image"
+        fill
+        objectFit="cover"
+        priority
+        loading="eager"
+      />
+    </div>
   );
 }
