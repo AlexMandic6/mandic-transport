@@ -1,16 +1,25 @@
 import Image from "next/image";
+import ImageSlider from "@/components/imageSlider";
+import FleetHeading from "@/components/fleetHeading";
 
 export default function Home() {
   return (
-    <div className="relative w-full h-[calc(100vh-80px)]">
-      <Image
-        src="/scania-truck3.jpg"
-        alt="Scania truck image"
-        fill
-        style={{ objectFit: "cover", objectPosition: "center" }}
-        priority
-        loading="eager"
-      />
-    </div>
+    <>
+      {/* Hero */}
+      <div className="relative w-full h-[calc(100vh-64px)]">
+        <Image
+          src="/scania-truck3.jpg"
+          alt="Scania truck image"
+          fill
+          style={{ objectFit: "cover", objectPosition: "center" }}
+          priority
+          loading="eager"
+        />
+      </div>
+
+      <FleetHeading />
+      {/* Slider */}
+      <ImageSlider />
+    </>
   );
 }
