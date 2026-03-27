@@ -4,10 +4,10 @@ export default function Home() {
   return (
     <div className="relative w-full h-[calc(100vh-80px)]">
       <Image
-        src="/scania.jpg"
+        src="/scania-truck3.jpg"
         alt="Scania truck image"
         fill
-        objectFit="cover"
+        style={{ objectFit: "cover", objectPosition: "center" }}
         priority
         loading="eager"
       />
