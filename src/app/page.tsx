@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <div className="relative w-full h-[calc(100vh-64px)]">
+      <div className="relative w-full h-[60vh] md:h-[70vh]">
         <Image
           src="/scania-truck3.jpg"
           alt="Scania truck image"
