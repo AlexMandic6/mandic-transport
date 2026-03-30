@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { MobileMenu } from "./mobileMenu";
+import { MobileMenu } from "./MobileMenu";
 
 function Header() {
   return (

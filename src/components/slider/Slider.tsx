@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useCallback } from "react";
 import { slides } from "@/constants/slides";
 
-export default function ImageSlider() {
+export default function Slider() {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: true,
     slidesToScroll: 1,

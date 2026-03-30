@@ -1,6 +1,6 @@
 import Image from "next/image";
-import ImageSlider from "@/components/imageSlider";
-import FleetHeading from "@/components/fleetHeading";
+import Slider from "@/components/slider/Slider";
+import FleetHeading from "@/components/FleetHeading";
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
 
       <FleetHeading />
       {/* Slider */}
-      <ImageSlider />
+      <Slider />
     </>
   );
 }
