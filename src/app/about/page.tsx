@@ -1,0 +1,118 @@
+import Image from "next/image";
+import Link from "next/link";
+
+const fleetImages = [
+  { src: "/scania-truck3.jpg", alt: "Scania truck front view" },
+  { src: "/scania-truck4.jpg", alt: "Scania truck on the road" },
+  { src: "/scania-truck5.jpg", alt: "Scania 500 S side view" },
+];
+
+export default function AboutPage() {
+  return (
+    <main className="min-h-screen bg-dark text-white">
+      {/* Hero */}
+      <section className="bg-midnight px-6 md:px-12 py-16 md:py-24">
+        <p className="text-gold text-[10px] uppercase tracking-widest mb-3">
+          Our story
+        </p>
+        <h1 className="text-3xl md:text-4xl font-medium max-w-xl leading-snug">
+          A young company with a serious commitment to quality.
+        </h1>
+      </section>
+
+      {/* Gold divider */}
+      <div className="h-0.5 bg-gold" />
+
+      {/* Story */}
+      <section className="px-6 md:px-12 py-16">
+        <div className="max-w-3xl mx-auto">
+          <p className="text-gold text-[10px] uppercase tracking-widest mb-6">
+            Background
+          </p>
+          <p className="text-gray-300 text-base leading-relaxed mb-4">
+            Mandic Transport was founded in Zagreb, Croatia with a clear goal —
+            to provide reliable, professional international freight services
+            across Europe. Though we are a young company, we operate with the
+            discipline and standards of a seasoned logistics partner.
+          </p>
+          <p className="text-gray-400 text-base leading-relaxed">
+            We invest in premium equipment, starting with our Scania 500 S
+            fleet, because we believe the quality of your truck reflects the
+            quality of your service. Every shipment we take on is handled with
+            full accountability from pickup to delivery.
+          </p>
+        </div>
+      </section>
+
+      {/* Meet the team */}
+      <section className="bg-midnight px-6 md:px-12 py-16">
+        <div className="max-w-3xl mx-auto">
+          <p className="text-gold text-[10px] uppercase tracking-widest mb-6">
+            The team
+          </p>
+          <div className="flex flex-col md:flex-row gap-8 items-start">
+            <div className="w-20 h-20 rounded-full bg-gold/10 border border-gold/30 flex items-center justify-center shrink-0">
+              <span className="text-gold text-2xl font-semibold">M</span>
+            </div>
+            <div>
+              <h2 className="text-white text-lg font-medium mb-1">
+                Mandic Transport Team
+              </h2>
+              <p className="text-gold text-[10px] uppercase tracking-widest mb-4">
+                Zagreb, Croatia
+              </p>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                Our small but dedicated team handles everything from route
+                planning and documentation to customer communication and on-road
+                logistics. We take pride in being reachable, responsive, and
+                transparent with every client we work with.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Fleet */}
+      <section className="px-6 md:px-12 py-16">
+        <div className="max-w-5xl mx-auto">
+          <p className="text-gold text-[10px] uppercase tracking-widest mb-6">
+            Our fleet
+          </p>
+          <h2 className="text-white text-2xl font-medium mb-8">
+            Scania 500 S — built for Europe.
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {fleetImages.map((image) => (
+              <div
+                key={image.src}
+                className="relative aspect-video rounded-lg overflow-hidden"
+              >
+                <Image
+                  src={image.src}
+                  alt={image.alt}
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="px-6 md:px-12 py-12 border-t border-white/10">
+        <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+          <p className="text-gray-400 text-sm">
+            Interested in working with us?
+          </p>
+          <Link
+            href="/contact"
+            className="border border-gold text-gold hover:bg-gold hover:text-midnight px-5 py-2 rounded text-sm font-semibold transition-colors whitespace-nowrap"
+          >
+            Contact Us
+          </Link>
+        </div>
+      </section>
+    </main>
+  );
+}
