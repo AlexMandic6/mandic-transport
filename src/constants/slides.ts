@@ -15,10 +15,6 @@ export const slides: Slide[] = [
     label: "Scania 500 S",
   },
   {
-    src: "/scania-front2.jpg",
-    alt: "Scania truck front view",
-  },
-  {
     src: "/scania-truck4.jpg",
     alt: "Scania truck on the open road",
     label: "Scania 500 S",
@@ -37,5 +33,9 @@ export const slides: Slide[] = [
     src: "/scania-truck8.jpg",
     alt: "Scania truck",
     label: "Scania 460 S",
+  },
+  {
+    src: "/scania-front2.jpg",
+    alt: "Scania truck front view",
   },
 ];
