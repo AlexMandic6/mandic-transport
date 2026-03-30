@@ -8,7 +8,7 @@ function Header() {
     <div className="relative">
       <header className="relative bg-midnight h-16 text-white flex items-center justify-between px-6 shadow-md z-10">
         {/* Left: Logo + Company Name */}
-        <div className="flex items-center gap-3">
+        <Link href="/" className="flex items-center gap-3">
           <Image
             src="/logo-scania.svg"
             alt="Scania Logo"
@@ -24,7 +24,7 @@ function Header() {
               International Trucking
             </span>
           </div>
-        </div>
+        </Link>
 
         {/* Right: Nav + Call Us (desktop) */}
         <div className="hidden md:flex items-center gap-8">
