@@ -1,27 +1,36 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { navLinks } from "@/constants/navLinks";
 
 export default function Footer() {
+  const pathname = usePathname();
+  const isHome = pathname === "/";
+
   return (
     <footer className="bg-midnight text-white">
       {/* CTA Band */}
-      <div className="bg-gold px-6 md:px-12 py-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-        <div>
-          <p className="text-midnight font-semibold text-base">
-            Ready to ship across Europe?
-          </p>
-          <p className="text-midnight/70 text-sm mt-0.5">
-            Get in touch with our team today.
-          </p>
+      {isHome && (
+        <div className="bg-gold px-6 md:px-12 py-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+          <div>
+            <p className="text-midnight font-semibold text-base">
+              Ready to ship across Europe?
+            </p>
+            <p className="text-midnight/70 text-sm mt-0.5">
+              Get in touch with our team today.
+            </p>
+          </div>
+
+          <Link
+            href="/contact"
+            className="bg-midnight text-gold text-sm font-semibold px-5 py-2.5 rounded hover:opacity-90 transition-opacity whitespace-nowrap"
+          >
+            Contact Us
+          </Link>
         </div>
-        <Link
-          href="/contact"
-          className="bg-midnight text-gold text-sm font-semibold px-5 py-2.5 rounded hover:opacity-90 transition-opacity whitespace-nowrap"
-        >
-          Contact Us
-        </Link>
-      </div>
+      )}
 
       {/* Main footer row */}
       <div className="px-6 md:px-12 py-6 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
