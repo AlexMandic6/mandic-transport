@@ -63,7 +63,8 @@ export default function ServicesPage() {
       <section className="px-6 md:px-12 py-12 border-t border-white/10">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
           <p className="text-gray-400 text-sm">
-            Need a custom solution? We're happy to discuss your requirements.
+            Need a custom solution? We&apos;re happy to discuss your
+            requirements.
           </p>
           <Link
             href="/contact"
