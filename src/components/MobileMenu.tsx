@@ -2,13 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-
-const navLinks = [
-  { href: "/", label: "Home" },
-  { href: "/services", label: "Services" },
-  { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact" },
-];
+import { navLinks } from "@/constants/navLinks";
 
 export function MobileMenu() {
   const [menuOpen, setMenuOpen] = useState(false);

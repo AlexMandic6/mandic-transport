@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { MobileMenu } from "./MobileMenu";
+import { navLinks } from "@/constants/navLinks";
 
 function Header() {
   return (
@@ -19,33 +20,39 @@ function Header() {
             <span className="font-bold tracking-wide text-base md:text-lg leading-tight">
               Mandic Transport
             </span>
-            <span className="text-[10px] uppercase tracking-widest text-[var(--color-gold)]">
+            <span className="text-[10px] uppercase tracking-widest text-gold">
               International Trucking
             </span>
           </div>
         </div>
 
-        {/* Right: Navigation */}
-        <nav className="hidden md:flex gap-6 text-sm font-medium">
-          <Link href="/">Home</Link>
-          <Link href="/services">Services</Link>
-          <Link href="/about">About</Link>
-          <Link href="/contact">Contact</Link>
-        </nav>
+        {/* Right: Nav + Call Us (desktop) */}
+        <div className="hidden md:flex items-center gap-8">
+          <nav className="flex gap-6 text-sm font-medium text-white/80">
+            {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="hover:text-gold transition-colors"
+              >
+                {link.label}
+              </Link>
+            ))}
+          </nav>
 
-        {/* Call to Action (optional) */}
-        <div className="hidden md:block">
           <a
-            href="tel:+385912345678"
-            className="bg-red-600 hover:bg-red-700 px-4 py-2 rounded text-sm font-semibold"
+            href="tel:+385993308093"
+            className="border border-gold text-gold hover:bg-gold hover:text-midnight px-4 py-1.5 rounded text-sm font-semibold transition-colors"
           >
             Call Us
           </a>
         </div>
-        {/* Mobile menu (button + dropdown) */}
+
+        {/* Mobile menu */}
         <MobileMenu />
       </header>
-      {/*  Divider */}
+
+      {/* Gold divider — mobile only */}
       <div className="h-0.5 bg-gold md:hidden" />
     </div>
   );
