@@ -9,7 +9,7 @@ const navLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-midnight text-white pt-2">
+    <footer className="bg-midnight text-white">
       {/* CTA Band */}
       <div className="bg-gold px-6 md:px-12 py-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
         <div>
