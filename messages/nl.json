@@ -35,29 +35,49 @@
     "label": "Wat wij bieden",
     "headingLine1": "Betrouwbare vracht,",
     "headingLine2": "over elke grens.",
+    "cta": "Heeft u een maatwerkoplossing nodig? We bespreken graag uw wensen.",
+    "ctaBtn": "Neem contact op",
     "ftl": {
       "title": "Volledige vrachtwagenlading (FTL)",
-      "description": "Toegewijde volle ladingen door Europa. Direct, efficiënt, op tijd."
+      "description": "Toegewijde volle ladingen door Europa. Direct, efficiënt, op tijd.",
+      "fullDescription": "Wij bieden toegewijd volledig vrachttransport door heel Europa. Uw lading krijgt een eigen vrachtwagen — geen delen, geen stops, geen vertragingen. Ideaal voor tijdgevoelige of grote zendingen die snel en intact moeten aankomen."
     },
     "refrigerated": {
       "title": "Gekoeld transport",
-      "description": "Temperatuurgecontroleerde lading zorgvuldig behandeld van ophaling tot levering."
+      "description": "Temperatuurgecontroleerde lading zorgvuldig behandeld van ophaling tot levering.",
+      "fullDescription": "Onze gekoelde voertuigen handhaven nauwkeurige temperatuuromstandigheden gedurende de gehele reis. Of u nu voedsel, medicijnen of andere bederfelijke goederen verzendt, wij zorgen ervoor dat uw lading in perfecte staat aankomt."
     },
     "international": {
       "title": "Internationale routes",
-      "description": "Vaste lijnen door de EU vanuit onze basis in Zagreb, betrouwbaar en veilig."
+      "description": "Vaste lijnen door de EU vanuit onze basis in Zagreb, betrouwbaar en veilig.",
+      "fullDescription": "Vanuit onze basis in Zagreb rijden wij vaste lijnen door de Europese Unie. Met ervaring in grensoverschrijdende logistiek, douane en documentatie zorgen wij ervoor dat uw vracht altijd zonder wrijving blijft bewegen."
     }
   },
   "about": {
     "label": "Ons verhaal",
-    "heading": "Een jong bedrijf met een serieuze toewijding aan kwaliteit."
+    "heading": "Een jong bedrijf met een serieuze toewijding aan kwaliteit.",
+    "backgroundLabel": "Achtergrond",
+    "backgroundP1": "Mandic Transport werd opgericht in Zagreb met een duidelijk doel — betrouwbare, professionele internationale vrachtdiensten door heel Europa te bieden. Hoewel we een jong bedrijf zijn, werken we met de discipline en normen van een ervaren logistieke partner.",
+    "backgroundP2": "We investeren in premium uitrusting, te beginnen met onze Scania 500 S-vloot, omdat we geloven dat de kwaliteit van uw vrachtwagen de kwaliteit van uw service weerspiegelt. Elke zending die we aannemen wordt met volledige verantwoordelijkheid behandeld van ophaling tot levering.",
+    "teamLabel": "Het team",
+    "teamName": "Mandic Transport Team",
+    "teamDescription": "Ons kleine maar toegewijde team regelt alles, van routeplanning en documentatie tot klantcommunicatie en logistiek onderweg. We zijn er trots op bereikbaar, responsief en transparant te zijn voor elke klant waarmee we samenwerken.",
+    "fleetLabel": "Onze vloot",
+    "fleetHeading": "Scania 500 S — gebouwd voor Europa.",
+    "cta": "Geïnteresseerd in samenwerking met ons?",
+    "ctaBtn": "Neem contact op"
   },
   "contact": {
     "label": "Neem contact op",
     "heading": "Laten we praten over uw volgende zending.",
+    "detailsLabel": "Contactgegevens",
+    "formLabel": "Stuur een bericht",
     "name": "Naam",
+    "namePlaceholder": "Uw naam",
     "email": "E-mail",
+    "emailPlaceholder": "uw@email.com",
     "message": "Bericht",
+    "messagePlaceholder": "Vertel ons over uw zending...",
     "send": "Bericht versturen",
     "sent": "Bericht verzonden!",
     "sentSub": "We nemen zo snel mogelijk contact met u op."

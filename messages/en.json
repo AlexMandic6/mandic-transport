@@ -35,29 +35,49 @@
     "label": "What we do",
     "headingLine1": "Reliable freight,",
     "headingLine2": "across every border.",
+    "cta": "Need a custom solution? We're happy to discuss your requirements.",
+    "ctaBtn": "Get in Touch",
     "ftl": {
       "title": "Full Truckload (FTL)",
-      "description": "Dedicated full loads across Europe. Direct, efficient, on schedule."
+      "description": "Dedicated full loads across Europe. Direct, efficient, on schedule.",
+      "fullDescription": "We offer dedicated full truckload transport across Europe. Your cargo gets its own truck — no sharing, no stops, no delays. Ideal for time-sensitive or high-volume shipments that need to move fast and arrive intact."
     },
     "refrigerated": {
       "title": "Refrigerated Transport",
-      "description": "Temperature-controlled cargo handled with care from pickup to delivery."
+      "description": "Temperature-controlled cargo handled with care from pickup to delivery.",
+      "fullDescription": "Our refrigerated vehicles maintain precise temperature conditions throughout the entire journey. Whether you're shipping food, pharmaceuticals, or other perishables, we ensure your cargo arrives in perfect condition."
     },
     "international": {
       "title": "International Routes",
-      "description": "Regular lanes across the EU from our Zagreb base, built for reliability."
+      "description": "Regular lanes across the EU from our Zagreb base, built for reliability.",
+      "fullDescription": "Operating from our Zagreb base, we run regular lanes across the European Union. With experience navigating cross-border logistics, customs, and documentation, we keep your freight moving without friction."
     }
   },
   "about": {
     "label": "Our story",
-    "heading": "A young company with a serious commitment to quality."
+    "heading": "A young company with a serious commitment to quality.",
+    "backgroundLabel": "Background",
+    "backgroundP1": "Mandic Transport was founded in Zagreb, Croatia with a clear goal — to provide reliable, professional international freight services across Europe. Though we are a young company, we operate with the discipline and standards of a seasoned logistics partner.",
+    "backgroundP2": "We invest in premium equipment, starting with our Scania 500 S fleet, because we believe the quality of your truck reflects the quality of your service. Every shipment we take on is handled with full accountability from pickup to delivery.",
+    "teamLabel": "The team",
+    "teamName": "Mandic Transport Team",
+    "teamDescription": "Our small but dedicated team handles everything from route planning and documentation to customer communication and on-road logistics. We take pride in being reachable, responsive, and transparent with every client we work with.",
+    "fleetLabel": "Our fleet",
+    "fleetHeading": "Scania 500 S — built for Europe.",
+    "cta": "Interested in working with us?",
+    "ctaBtn": "Contact Us"
   },
   "contact": {
     "label": "Get in touch",
     "heading": "Let's talk about your next shipment.",
+    "detailsLabel": "Contact details",
+    "formLabel": "Send a message",
     "name": "Name",
+    "namePlaceholder": "Your name",
     "email": "Email",
+    "emailPlaceholder": "your@email.com",
     "message": "Message",
+    "messagePlaceholder": "Tell us about your shipment...",
     "send": "Send Message",
     "sent": "Message sent!",
     "sentSub": "We'll get back to you as soon as possible."

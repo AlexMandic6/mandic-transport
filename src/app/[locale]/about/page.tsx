@@ -1,5 +1,6 @@
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
+import { useTranslations } from "next-intl";
 
 const fleetImages = [
   { src: "/scania-truck3.jpg", alt: "Scania truck front view" },
@@ -8,15 +9,17 @@ const fleetImages = [
 ];
 
 export default function AboutPage() {
+  const t = useTranslations("about");
+
   return (
     <main className="min-h-screen bg-dark text-white">
       {/* Hero */}
       <section className="bg-midnight px-6 md:px-12 py-16 md:py-24">
         <p className="text-gold text-[10px] uppercase tracking-widest mb-3">
-          Our story
+          {t("label")}
         </p>
         <h1 className="text-3xl md:text-4xl font-medium max-w-xl leading-snug">
-          A young company with a serious commitment to quality.
+          {t("heading")}{" "}
         </h1>
       </section>
 
@@ -27,19 +30,13 @@ export default function AboutPage() {
       <section className="px-6 md:px-12 py-16">
         <div className="max-w-3xl mx-auto">
           <p className="text-gold text-[10px] uppercase tracking-widest mb-6">
-            Background
+            {t("backgroundLabel")}
           </p>
           <p className="text-gray-300 text-base leading-relaxed mb-4">
-            Mandic Transport was founded in Zagreb, Croatia with a clear goal —
-            to provide reliable, professional international freight services
-            across Europe. Though we are a young company, we operate with the
-            discipline and standards of a seasoned logistics partner.
+            {t("backgroundP1")}
           </p>
           <p className="text-gray-400 text-base leading-relaxed">
-            We invest in premium equipment, starting with our Scania 500 S
-            fleet, because we believe the quality of your truck reflects the
-            quality of your service. Every shipment we take on is handled with
-            full accountability from pickup to delivery.
+            {t("backgroundP2")}
           </p>
         </div>
       </section>
@@ -48,7 +45,7 @@ export default function AboutPage() {
       <section className="bg-midnight px-6 md:px-12 py-16">
         <div className="max-w-3xl mx-auto">
           <p className="text-gold text-[10px] uppercase tracking-widest mb-6">
-            The team
+            {t("teamLabel")}
           </p>
           <div className="flex flex-col md:flex-row gap-8 items-start">
             <div className="w-20 h-20 rounded-full bg-gold/10 border border-gold/30 flex items-center justify-center shrink-0">
@@ -56,16 +53,13 @@ export default function AboutPage() {
             </div>
             <div>
               <h2 className="text-white text-lg font-medium mb-1">
-                Mandic Transport Team
+                {t("teamName")}
               </h2>
               <p className="text-gold text-[10px] uppercase tracking-widest mb-4">
                 Zagreb, Croatia
               </p>
               <p className="text-gray-400 text-sm leading-relaxed">
-                Our small but dedicated team handles everything from route
-                planning and documentation to customer communication and on-road
-                logistics. We take pride in being reachable, responsive, and
-                transparent with every client we work with.
+                {t("teamDescription")}
               </p>
             </div>
           </div>
@@ -76,10 +70,10 @@ export default function AboutPage() {
       <section className="px-6 md:px-12 py-16">
         <div className="max-w-5xl mx-auto">
           <p className="text-gold text-[10px] uppercase tracking-widest mb-6">
-            Our fleet
+            {t("fleetLabel")}
           </p>
           <h2 className="text-white text-2xl font-medium mb-8">
-            Scania 500 S — built for Europe.
+            {t("fleetHeading")}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {fleetImages.map((image) => (
@@ -91,6 +85,7 @@ export default function AboutPage() {
                   src={image.src}
                   alt={image.alt}
                   fill
+                  sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover"
                 />
               </div>
@@ -102,14 +97,12 @@ export default function AboutPage() {
       {/* CTA */}
       <section className="px-6 md:px-12 py-12 border-t border-white/10">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-          <p className="text-gray-400 text-sm">
-            Interested in working with us?
-          </p>
+          <p className="text-gray-400 text-sm">{t("cta")}</p>
           <Link
             href="/contact"
             className="border border-gold text-gold hover:bg-gold hover:text-midnight px-5 py-2 rounded text-sm font-semibold transition-colors whitespace-nowrap"
           >
-            Contact Us
+            {t("ctaBtn")}
           </Link>
         </div>
       </section>

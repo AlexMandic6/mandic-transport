@@ -35,29 +35,49 @@
     "label": "Kaj ponujamo",
     "headingLine1": "Zanesljiv prevoz,",
     "headingLine2": "čez vsako mejo.",
+    "cta": "Potrebujete prilagojeno rešitev? Z veseljem se pogovorimo o vaših zahtevah.",
+    "ctaBtn": "Stopite v stik",
     "ftl": {
       "title": "Polna tovornjačka obremenitev (FTL)",
-      "description": "Namenska polna tovorna po Evropi. Neposredno, učinkovito, pravočasno."
+      "description": "Namenska polna tovorna po Evropi. Neposredno, učinkovito, pravočasno.",
+      "fullDescription": "Ponujamo namenski prevoz polnih tovornjačkih tovorov po Evropi. Vaše blago dobi lasten tovornjak — brez deljenja, brez postankov, brez zamud. Idealno za časovno občutljive ali velike pošiljke, ki morajo prispeti hitro in nepoškodovane."
     },
     "refrigerated": {
       "title": "Hlajeni prevoz",
-      "description": "Temperaturno nadzorovano blago, skrbno obravnavano od prevzema do dostave."
+      "description": "Temperaturno nadzorovano blago, skrbno obravnavano od prevzema do dostave.",
+      "fullDescription": "Naša hladilna vozila vzdržujejo natančne temperaturne pogoje skozi celotno pot. Ne glede na to, ali prevažate hrano, zdravila ali drugo pokvarljivo blago, zagotavljamo, da vaš tovor prispe v popolnem stanju."
     },
     "international": {
       "title": "Mednarodne poti",
-      "description": "Redne linije po EU iz naše baze v Zagrebu, zanesljivo in varno."
+      "description": "Redne linije po EU iz naše baze v Zagrebu, zanesljivo in varno.",
+      "fullDescription": "Iz naše baze v Zagrebu vodimo redne linije po Evropski uniji. Z izkušnjami pri čezmejni logistiki, carini in dokumentaciji zagotavljamo, da vaše blago vedno potuje naprej brez zastojev."
     }
   },
   "about": {
     "label": "Naša zgodba",
-    "heading": "Mlado podjetje z resno zavezanostjo kakovosti."
+    "heading": "Mlado podjetje z resno zavezanostjo kakovosti.",
+    "backgroundLabel": "Ozadje",
+    "backgroundP1": "Mandic Transport je bil ustanovljen v Zagrebu z jasnim ciljem — zagotoviti zanesljive, profesionalne mednarodne storitve prevoza blaga po Evropi. Čeprav smo mlado podjetje, delujemo z disciplino in standardi izkušenega logističnega partnerja.",
+    "backgroundP2": "Vlagamo v vrhunsko opremo, začenši z našo floto Scania 500 S, ker verjamemo, da kakovost vašega tovornjaka odraža kakovost vaše storitve. Vsaka pošiljka, ki jo prevzamemo, je obravnavana s polno odgovornostjo od prevzema do dostave.",
+    "teamLabel": "Ekipa",
+    "teamName": "Ekipa Mandic Transport",
+    "teamDescription": "Naša majhna, a predana ekipa skrbi za vse, od načrtovanja poti in dokumentacije do komunikacije s strankami in logistike na cesti. Ponosni smo, da smo dosegljivi, odzivni in transparentni do vsake stranke, s katero sodelujemo.",
+    "fleetLabel": "Naša flota",
+    "fleetHeading": "Scania 500 S — ustvarjena za Evropo.",
+    "cta": "Zainteresirani za sodelovanje z nami?",
+    "ctaBtn": "Stopite v stik"
   },
   "contact": {
     "label": "Stopite v stik",
     "heading": "Pogovorimo se o vaši naslednji pošiljki.",
+    "detailsLabel": "Kontaktni podatki",
+    "formLabel": "Pošljite sporočilo",
     "name": "Ime",
+    "namePlaceholder": "Vaše ime",
     "email": "E-pošta",
+    "emailPlaceholder": "vasa@email.com",
     "message": "Sporočilo",
+    "messagePlaceholder": "Povejte nam o vaši pošiljki...",
     "send": "Pošlji sporočilo",
     "sent": "Sporočilo poslano!",
     "sentSub": "Javili se vam bomo čim prej."

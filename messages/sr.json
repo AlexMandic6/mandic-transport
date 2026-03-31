@@ -35,29 +35,49 @@
     "label": "Šta nudimo",
     "headingLine1": "Pouzdan transport,",
     "headingLine2": "preko svake granice.",
+    "cta": "Treba Vam prilagođeno rješenje? Rado ćemo razgovarati o vašim zahtevima.",
+    "ctaBtn": "Kontaktirajte nas",
     "ftl": {
       "title": "Puno kamionsko opterećenje (FTL)",
-      "description": "Namenski puni tereti širom Evrope. Direktno, efikasno, na vreme."
+      "description": "Namenski puni tereti širom Evrope. Direktno, efikasno, na vreme.",
+      "fullDescription": "Nudimo namenski prevoz punih kamionskih tereta širom Evrope. Vaš teret dobija sopstveni kamion — bez deljenja, bez zaustavljanja, bez kašnjenja. Idealno za hitne ili velike pošiljke koje treba brzo i neoštećeno isporučiti."
     },
     "refrigerated": {
       "title": "Hlađeni transport",
-      "description": "Temperaturno kontrolisan teret pažljivo rukovan od preuzimanja do isporuke."
+      "description": "Temperaturno kontrolisan teret pažljivo rukovan od preuzimanja do isporuke.",
+      "fullDescription": "Naša rashladna vozila održavaju precizne temperaturne uslove tokom celog putovanja. Bilo da prevozite hranu, lekove ili drugu robu koja se kvari, osiguravamo da vaš teret stigne u savršenom stanju."
     },
     "international": {
       "title": "Međunarodne rute",
-      "description": "Redovne linije širom EU iz naše baze u Zagrebu, pouzdano i sigurno."
+      "description": "Redovne linije širom EU iz naše baze u Zagrebu, pouzdano i sigurno.",
+      "fullDescription": "Iz naše baze u Zagrebu vodimo redovne linije širom Evropske unije. Sa iskustvom u prekograničnoj logistici, carini i dokumentaciji, osiguravamo da vaš teret uvek kreće napred bez zastoja."
     }
   },
   "about": {
     "label": "Naša priča",
-    "heading": "Mlada kompanija sa ozbiljnom posvećenošću kvalitetu."
+    "heading": "Mlada kompanija sa ozbiljnom posvećenošću kvalitetu.",
+    "backgroundLabel": "Pozadina",
+    "backgroundP1": "Mandic Transport osnovan je u Zagrebu s jasnim ciljem — da pruži pouzdane, profesionalne međunarodne usluge prevoza robe širom Evrope. Iako smo mlada kompanija, poslujemo s disciplinom i standardima iskusnog logističkog partnera.",
+    "backgroundP2": "Ulažemo u vrhunsku opremu, počevši od naše flote Scania 500 S, jer verujemo da kvalitet vašeg kamiona odražava kvalitet vaše usluge. Svaka pošiljka kojom se bavimo obrađuje se s punom odgovornošću od preuzimanja do isporuke.",
+    "teamLabel": "Tim",
+    "teamName": "Tim Mandic Transport",
+    "teamDescription": "Naš mali, ali posvećen tim bavi se svime, od planiranja ruta i dokumentacije do komunikacije s klijentima i logistike na putu. Ponosimo se time što smo dostupni, responzivni i transparentni prema svakom klijentu s kojim radimo.",
+    "fleetLabel": "Naša flota",
+    "fleetHeading": "Scania 500 S — stvorena za Evropu.",
+    "cta": "Zainteresovani za saradnju s nama?",
+    "ctaBtn": "Kontaktirajte nas"
   },
   "contact": {
     "label": "Kontaktirajte nas",
     "heading": "Razgovarajmo o vašoj sledećoj pošiljci.",
+    "detailsLabel": "Podaci za kontakt",
+    "formLabel": "Pošaljite poruku",
     "name": "Ime",
+    "namePlaceholder": "Vaše ime",
     "email": "E-pošta",
+    "emailPlaceholder": "vas@email.com",
     "message": "Poruka",
+    "messagePlaceholder": "Recite nam o vašoj pošiljci...",
     "send": "Pošalji poruku",
     "sent": "Poruka poslana!",
     "sentSub": "Javićemo vam se što je pre moguće."

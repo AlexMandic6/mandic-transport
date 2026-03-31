@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -9,6 +10,8 @@ export default function ContactPage() {
     message: "",
   });
   const [submitted, setSubmitted] = useState(false);
+
+  const t = useTranslations("contact");
 
   function handleChange(
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
@@ -27,10 +30,10 @@ export default function ContactPage() {
       {/* Hero */}
       <section className="bg-midnight px-6 md:px-12 py-16 md:py-24">
         <p className="text-gold text-[10px] uppercase tracking-widest mb-3">
-          Get in touch
+          {t("label")}
         </p>
         <h1 className="text-3xl md:text-4xl font-medium max-w-xl leading-snug">
-          Let&apos;s talk about your next shipment.
+          {t("heading")}
         </h1>
       </section>
 
@@ -43,7 +46,7 @@ export default function ContactPage() {
           <div className="flex flex-col gap-8">
             <div>
               <p className="text-gold text-[10px] uppercase tracking-widest mb-5">
-                Contact details
+                {t("detailsLabel")}
               </p>
               <div className="flex flex-col gap-4">
                 <div className="flex items-center gap-3">
@@ -88,54 +91,52 @@ export default function ContactPage() {
           {/* Contact form */}
           <div>
             <p className="text-gold text-[10px] uppercase tracking-widest mb-5">
-              Send a message
+              {t("formLabel")}
             </p>
 
             {submitted ? (
               <div className="bg-midnight border border-gold/20 rounded-lg p-8 text-center">
                 <div className="text-3xl mb-4">✅</div>
-                <h2 className="text-white font-medium mb-2">Message sent!</h2>
-                <p className="text-gray-400 text-sm">
-                  We&apos;ll get back to you as soon as possible.
-                </p>
+                <h2 className="text-white font-medium mb-2">{t("sent")}</h2>
+                <p className="text-gray-400 text-sm">{t("sentSub")}</p>
               </div>
             ) : (
               <div className="flex flex-col gap-4">
                 <div className="flex flex-col gap-1.5">
                   <label className="text-gray-400 text-xs uppercase tracking-wider">
-                    Name
+                    {t("name")}
                   </label>
                   <input
                     type="text"
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    placeholder="Your name"
+                    placeholder={t("namePlaceholder")}
                     className="bg-midnight border border-white/10 rounded px-4 py-2.5 text-sm text-white placeholder:text-gray-600 focus:outline-none focus:border-gold/50 transition-colors"
                   />
                 </div>
                 <div className="flex flex-col gap-1.5">
                   <label className="text-gray-400 text-xs uppercase tracking-wider">
-                    Email
+                    {t("email")}
                   </label>
                   <input
                     type="email"
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    placeholder="your@email.com"
+                    placeholder={t("emailPlaceholder")}
                     className="bg-midnight border border-white/10 rounded px-4 py-2.5 text-sm text-white placeholder:text-gray-600 focus:outline-none focus:border-gold/50 transition-colors"
                   />
                 </div>
                 <div className="flex flex-col gap-1.5">
                   <label className="text-gray-400 text-xs uppercase tracking-wider">
-                    Message
+                    {t("message")}
                   </label>
                   <textarea
                     name="message"
                     value={formData.message}
                     onChange={handleChange}
-                    placeholder="Tell us about your shipment..."
+                    placeholder={t("messagePlaceholder")}
                     rows={5}
                     className="bg-midnight border border-white/10 rounded px-4 py-2.5 text-sm text-white placeholder:text-gray-600 focus:outline-none focus:border-gold/50 transition-colors resize-none"
                   />
@@ -147,7 +148,7 @@ export default function ContactPage() {
                   onClick={handleSubmit}
                   className="bg-gold hover:bg-gold/80 text-midnight font-semibold text-sm px-6 py-3 rounded transition-colors cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:bg-gold"
                 >
-                  Send Message
+                  {t("send")}
                 </button>
               </div>
             )}
