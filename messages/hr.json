@@ -5,6 +5,10 @@
     "about": "O nama",
     "contact": "Kontakt"
   },
+  "header": {
+    "tagline": "Međunarodni prijevoz",
+    "cta": "Pozovite nas"
+  },
   "footer": {
     "tagline": "Međunarodni prijevoz",
     "cta": "Spremni za isporuku diljem Europe?",

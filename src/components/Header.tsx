@@ -1,9 +1,13 @@
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { MobileMenu } from "./MobileMenu";
 import { navLinks } from "@/constants/navLinks";
 
 function Header() {
+  const t = useTranslations("nav");
+  const tHeader = useTranslations("header");
+
   return (
     <div className="relative">
       <header className="relative bg-midnight h-16 text-white flex items-center justify-between px-6 shadow-md z-10">
@@ -21,7 +25,7 @@ function Header() {
               Mandic Transport
             </span>
             <span className="text-[10px] uppercase tracking-widest text-gold">
-              International Trucking
+              {tHeader("tagline")}
             </span>
           </div>
         </Link>
@@ -35,7 +39,7 @@ function Header() {
                 href={link.href}
                 className="hover:text-gold transition-colors"
               >
-                {link.label}
+                {t(link.href === "/" ? "home" : link.href.slice(1))}
               </Link>
             ))}
           </nav>
@@ -44,7 +48,7 @@ function Header() {
             href="tel:+385993308093"
             className="border border-gold text-gold hover:bg-gold hover:text-midnight px-4 py-1.5 rounded text-sm font-semibold transition-colors"
           >
-            Call Us
+            {tHeader("cta")}
           </a>
         </div>
 

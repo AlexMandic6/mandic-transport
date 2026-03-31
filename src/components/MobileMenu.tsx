@@ -1,11 +1,14 @@
 "use client";
 
 import { Link } from "@/i18n/routing";
+import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { navLinks } from "@/constants/navLinks";
 
 export function MobileMenu() {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const t = useTranslations("nav");
 
   return (
     <>
@@ -40,7 +43,7 @@ export function MobileMenu() {
               onClick={() => setMenuOpen(false)}
               className="border-b border-white/10 pb-3 last:border-0 last:pb-0 hover:text-[var(--color-gold)] transition-colors text-right"
             >
-              {link.label}
+              {t(link.href === "/" ? "home" : link.href.slice(1))}
             </Link>
           ))}
         </nav>

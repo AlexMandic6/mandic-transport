@@ -58,17 +58,15 @@ export default function Footer() {
           </div>
         </div>
         <nav className="flex gap-6">
-          {navLinks
-            .filter((link) => link.href !== "/")
-            .map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="text-gray-400 text-sm hover:text-gold transition-colors"
-              >
-                {tNav(link.href.slice(1))}
-              </Link>
-            ))}
+          {navLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="text-gray-400 text-sm hover:text-gold transition-colors"
+            >
+              {tNav(link.key)}
+            </Link>
+          ))}
         </nav>
       </div>
 

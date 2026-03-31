@@ -5,6 +5,10 @@
     "about": "About",
     "contact": "Contact"
   },
+  "header": {
+    "tagline": "International Trucking",
+    "cta": "Call Us"
+  },
   "footer": {
     "tagline": "International Trucking",
     "cta": "Ready to ship across Europe?",
