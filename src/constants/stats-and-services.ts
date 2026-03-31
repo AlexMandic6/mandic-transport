@@ -1,38 +1,31 @@
 interface Stat {
   value: string;
-  label: string;
+  labelKey: string;
 }
 
 interface Service {
   icon: string;
-  title: string;
-  description: string;
+  titleKey: string;
+  descriptionKey: string;
 }
 
 export const stats: Stat[] = [
-  { value: "2", label: "Trucks in fleet" },
-  { value: "FTL", label: "Load type" },
-  { value: "EU", label: "Coverage" },
-  { value: "24/7", label: "Availability" },
+  { value: "2", labelKey: "trucksLabel" },
+  { value: "FTL", labelKey: "loadTypeLabel" },
+  { value: "EU", labelKey: "coverageLabel" },
+  { value: "24/7", labelKey: "availabilityLabel" },
 ];
 
 export const services: Service[] = [
-  {
-    icon: "🚛",
-    title: "Full Truckload (FTL)",
-    description:
-      "Dedicated full loads across Europe. Direct, efficient, on schedule.",
-  },
+  { icon: "🚛", titleKey: "ftl.title", descriptionKey: "ftl.description" },
   {
     icon: "❄️",
-    title: "Refrigerated Transport",
-    description:
-      "Temperature-controlled cargo handled with care from pickup to delivery.",
+    titleKey: "refrigerated.title",
+    descriptionKey: "refrigerated.description",
   },
   {
     icon: "🗺️",
-    title: "International Routes",
-    description:
-      "Regular lanes across the EU from our Zagreb base, built for reliability.",
+    titleKey: "international.title",
+    descriptionKey: "international.description",
   },
 ];

@@ -18,12 +18,23 @@
     "viewInEnglish": "Prikaži v angleščini"
   },
   "home": {
+    "heading": "Novost",
     "hero": "Najnovejši dodatek naši floti",
     "heroSub": "Ustvarjeno za dolge poti. Zasnovano za tiste, ki zahtevajo več od vsakega kilometra."
   },
+  "stats": {
+    "heading": "Številke povedo vse",
+    "headingLine1": "Zgrajeno na izkušnjah,",
+    "headingLine2": "vodeno s preciznostjo.",
+    "trucksLabel": "Tovornjakov v floti",
+    "loadTypeLabel": "Vrsta tovora",
+    "coverageLabel": "Pokritost",
+    "availabilityLabel": "Razpoložljivost"
+  },
   "services": {
     "label": "Kaj ponujamo",
-    "heading": "Prevozne rešitve za dolge poti.",
+    "headingLine1": "Zanesljiv prevoz,",
+    "headingLine2": "čez vsako mejo.",
     "ftl": {
       "title": "Polna tovornjačka obremenitev (FTL)",
       "description": "Namenska polna tovorna po Evropi. Neposredno, učinkovito, pravočasno."

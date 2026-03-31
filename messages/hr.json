@@ -18,12 +18,23 @@
     "viewInEnglish": "Prikaži na engleskom"
   },
   "home": {
+    "heading": "Novost",
     "hero": "Najnoviji dodatak našoj floti",
-    "heroSub": "Stvoreno za duge rute. Dizajnirano za one koji zahtijevaju više od svakog kilometra."
+    "heroSub": "Stvorena za duge rute. Dizajnirana za one koji zahtijevaju više od svakog kilometra."
+  },
+  "stats": {
+    "heading": "Brojke govore",
+    "headingLine1": "Izgrađeno na iskustvu,",
+    "headingLine2": "vođeno preciznošću.",
+    "trucksLabel": "Kamiona u floti",
+    "loadTypeLabel": "Vrsta tereta",
+    "coverageLabel": "Pokrivenost",
+    "availabilityLabel": "Dostupnost"
   },
   "services": {
     "label": "Što nudimo",
-    "heading": "Prijevozna rješenja za duge rute.",
+    "headingLine1": "Pouzdani prijevoz,",
+    "headingLine2": "preko svake granice.",
     "ftl": {
       "title": "Cjelovito kamionsko opterećenje (FTL)",
       "description": "Namjenski puni tereti diljem Europe. Izravno, učinkovito, na vrijeme."

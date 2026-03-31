@@ -18,12 +18,23 @@
     "viewInEnglish": "View in English"
   },
   "home": {
+    "heading": "New Arrival",
     "hero": "The Latest Addition to Our Fleet",
     "heroSub": "Built for the long haul. Engineered for those who demand more from every kilometer."
   },
+  "stats": {
+    "heading": "By the numbers",
+    "headingLine1": "Built on experience,",
+    "headingLine2": "driven by precision.",
+    "trucksLabel": "Trucks in fleet",
+    "loadTypeLabel": "Load type",
+    "coverageLabel": "Coverage",
+    "availabilityLabel": "Availability"
+  },
   "services": {
-    "label": "What we offer",
-    "heading": "Freight solutions built for the long haul.",
+    "label": "What we do",
+    "headingLine1": "Reliable freight,",
+    "headingLine2": "across every border.",
     "ftl": {
       "title": "Full Truckload (FTL)",
       "description": "Dedicated full loads across Europe. Direct, efficient, on schedule."

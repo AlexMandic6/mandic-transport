@@ -18,12 +18,23 @@
     "viewInEnglish": "Bekijk in het Engels"
   },
   "home": {
+    "heading": "Nieuwe aanwinst",
     "hero": "De nieuwste aanwinst in onze vloot",
     "heroSub": "Gebouwd voor de lange rit. Ontworpen voor wie meer eist van elke kilometer."
   },
+  "stats": {
+    "heading": "De cijfers spreken",
+    "headingLine1": "Gebouwd op ervaring,",
+    "headingLine2": "gedreven door precisie.",
+    "trucksLabel": "Vrachtwagens in vloot",
+    "loadTypeLabel": "Type lading",
+    "coverageLabel": "Dekking",
+    "availabilityLabel": "Beschikbaarheid"
+  },
   "services": {
     "label": "Wat wij bieden",
-    "heading": "Vrachoplossingen voor de lange termijn.",
+    "headingLine1": "Betrouwbare vracht,",
+    "headingLine2": "over elke grens.",
     "ftl": {
       "title": "Volledige vrachtwagenlading (FTL)",
       "description": "Toegewijde volle ladingen door Europa. Direct, efficiënt, op tijd."
