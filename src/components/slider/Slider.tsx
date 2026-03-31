@@ -29,6 +29,7 @@ export default function Slider() {
                 src={slide.src}
                 alt={slide.alt}
                 fill
+                sizes="(max-width: 768px) 100vw, 33vw"
                 className="object-cover object-center"
                 priority={i === 0}
               />
