@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "home": "Početna",
+    "services": "Usluge",
+    "about": "O nama",
+    "contact": "Kontakt"
+  },
+  "footer": {
+    "tagline": "Međunarodni transport",
+    "cta": "Spremni za isporuku širom Evrope?",
+    "ctaSub": "Kontaktirajte nas danas.",
+    "ctaBtn": "Kontaktirajte nas",
+    "copyright": "© 2026 Mandic Transport. Sva prava zadržana.",
+    "viewInEnglish": "Prikaži na engleskom"
+  },
+  "home": {
+    "hero": "Najnoviji dodatak našoj floti",
+    "heroSub": "Napravljeno za duge rute. Dizajnirano za one koji zahtevaju više od svakog kilometra."
+  },
+  "services": {
+    "label": "Šta nudimo",
+    "heading": "Transportna rešenja za duge rute.",
+    "ftl": {
+      "title": "Puno kamionsko opterećenje (FTL)",
+      "description": "Namenski puni tereti širom Evrope. Direktno, efikasno, na vreme."
+    },
+    "refrigerated": {
+      "title": "Hlađeni transport",
+      "description": "Temperaturno kontrolisan teret pažljivo rukovan od preuzimanja do isporuke."
+    },
+    "international": {
+      "title": "Međunarodne rute",
+      "description": "Redovne linije širom EU iz naše baze u Zagrebu, pouzdano i sigurno."
+    }
+  },
+  "about": {
+    "label": "Naša priča",
+    "heading": "Mlada kompanija sa ozbiljnom posvećenošću kvalitetu."
+  },
+  "contact": {
+    "label": "Kontaktirajte nas",
+    "heading": "Razgovarajmo o vašoj sledećoj pošiljci.",
+    "name": "Ime",
+    "email": "E-pošta",
+    "message": "Poruka",
+    "send": "Pošalji poruku",
+    "sent": "Poruka poslana!",
+    "sentSub": "Javićemo vam se što je pre moguće."
+  }
+}

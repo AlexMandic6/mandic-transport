@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "footer": {
+    "tagline": "International Trucking",
+    "cta": "Ready to ship across Europe?",
+    "ctaSub": "Get in touch with our team today.",
+    "ctaBtn": "Contact Us",
+    "copyright": "© 2026 Mandic Transport. All rights reserved.",
+    "viewInEnglish": "View in English"
+  },
+  "home": {
+    "hero": "The Latest Addition to Our Fleet",
+    "heroSub": "Built for the long haul. Engineered for those who demand more from every kilometer."
+  },
+  "services": {
+    "label": "What we offer",
+    "heading": "Freight solutions built for the long haul.",
+    "ftl": {
+      "title": "Full Truckload (FTL)",
+      "description": "Dedicated full loads across Europe. Direct, efficient, on schedule."
+    },
+    "refrigerated": {
+      "title": "Refrigerated Transport",
+      "description": "Temperature-controlled cargo handled with care from pickup to delivery."
+    },
+    "international": {
+      "title": "International Routes",
+      "description": "Regular lanes across the EU from our Zagreb base, built for reliability."
+    }
+  },
+  "about": {
+    "label": "Our story",
+    "heading": "A young company with a serious commitment to quality."
+  },
+  "contact": {
+    "label": "Get in touch",
+    "heading": "Let's talk about your next shipment.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message",
+    "sent": "Message sent!",
+    "sentSub": "We'll get back to you as soon as possible."
+  }
+}

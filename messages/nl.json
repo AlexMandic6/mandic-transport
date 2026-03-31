@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Diensten",
+    "about": "Over ons",
+    "contact": "Contact"
+  },
+  "footer": {
+    "tagline": "Internationaal transport",
+    "cta": "Klaar om door Europa te verzenden?",
+    "ctaSub": "Neem vandaag nog contact met ons op.",
+    "ctaBtn": "Neem contact op",
+    "copyright": "© 2026 Mandic Transport. Alle rechten voorbehouden.",
+    "viewInEnglish": "Bekijk in het Engels"
+  },
+  "home": {
+    "hero": "De nieuwste aanwinst in onze vloot",
+    "heroSub": "Gebouwd voor de lange rit. Ontworpen voor wie meer eist van elke kilometer."
+  },
+  "services": {
+    "label": "Wat wij bieden",
+    "heading": "Vrachoplossingen voor de lange termijn.",
+    "ftl": {
+      "title": "Volledige vrachtwagenlading (FTL)",
+      "description": "Toegewijde volle ladingen door Europa. Direct, efficiënt, op tijd."
+    },
+    "refrigerated": {
+      "title": "Gekoeld transport",
+      "description": "Temperatuurgecontroleerde lading zorgvuldig behandeld van ophaling tot levering."
+    },
+    "international": {
+      "title": "Internationale routes",
+      "description": "Vaste lijnen door de EU vanuit onze basis in Zagreb, betrouwbaar en veilig."
+    }
+  },
+  "about": {
+    "label": "Ons verhaal",
+    "heading": "Een jong bedrijf met een serieuze toewijding aan kwaliteit."
+  },
+  "contact": {
+    "label": "Neem contact op",
+    "heading": "Laten we praten over uw volgende zending.",
+    "name": "Naam",
+    "email": "E-mail",
+    "message": "Bericht",
+    "send": "Bericht versturen",
+    "sent": "Bericht verzonden!",
+    "sentSub": "We nemen zo snel mogelijk contact met u op."
+  }
+}
